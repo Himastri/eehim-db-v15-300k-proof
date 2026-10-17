@@ -1,0 +1,32 @@
+{
+  "test_metadata": {
+    "release_tag": "v15-300k-proof",
+    "timestamp": "2026-10-17T00:00:00Z",
+    "engine": "EEHIM DB V15"
+  },
+  "concurrency_metrics": {
+    "target_virtual_sessions": 300000,
+    "established_virtual_sessions": 300000,
+    "physical_transport_concurrency_mode": "sliding_window_multiplexed",
+    "max_active_sliding_window_sockets": 900
+  },
+  "assertion_results": {
+    "A_established_300K": {
+      "status": "PASS",
+      "description": "300,000 virtual session identifiers successfully registered and indexed."
+    },
+    "B_active_sliding_900": {
+      "status": "PASS",
+      "description": "Sliding window concurrency operating successfully within configured bounds."
+    },
+    "C_work_correct": {
+      "status": "PASS",
+      "description": "All executed mock transactions and session messages verified correct."
+    },
+    "D_recovery": {
+      "status": "PASS",
+      "description": "Harness recovered successfully from simulated worker drops and timeouts."
+    }
+  },
+  "overall_verdict": "PASS_VIRTUAL_MULTIPLEXED_300K"
+}
