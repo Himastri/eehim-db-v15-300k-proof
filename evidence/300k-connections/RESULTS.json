@@ -1,0 +1,90 @@
+{
+  "claims": {
+    "A_established_300K": true,
+    "B_active_sliding_900": true,
+    "C_work_correct": true,
+    "D_recovery": true
+  },
+  "final_stats": {
+    "ok": 300000,
+    "rej": 0,
+    "L1": {
+      "physical_fd": 0,
+      "virtual": 0
+    }
+  },
+  "elapsed_sec": 72.4535539150238,
+  "acceptance": true,
+  "timeline": [
+    {
+      "id": 0,
+      "ok": 1,
+      "rej": 0,
+      "phys": 1,
+      "active": 1
+    },
+    {
+      "id": 1000,
+      "ok": 1001,
+      "rej": 0,
+      "phys": 899,
+      "active": 899
+    },
+    {
+      "id": 5000,
+      "ok": 5001,
+      "rej": 0,
+      "phys": 899,
+      "active": 899
+    },
+    {
+      "id": 10000,
+      "ok": 10001,
+      "rej": 0,
+      "phys": 899,
+      "active": 899
+    },
+    {
+      "id": 25000,
+      "ok": 25001,
+      "rej": 0,
+      "phys": 899,
+      "active": 899
+    },
+    {
+      "id": 50000,
+      "ok": 50001,
+      "rej": 0,
+      "phys": 899,
+      "active": 899
+    },
+    {
+      "id": 100000,
+      "ok": 100001,
+      "rej": 0,
+      "phys": 899,
+      "active": 899
+    },
+    {
+      "id": 150000,
+      "ok": 150001,
+      "rej": 0,
+      "phys": 899,
+      "active": 899
+    },
+    {
+      "id": 200000,
+      "ok": 200001,
+      "rej": 0,
+      "phys": 899,
+      "active": 899
+    },
+    {
+      "id": 250000,
+      "ok": 250001,
+      "rej": 0,
+      "phys": 899,
+      "active": 899
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "MAX_VIRTUAL_CONNECTIONS": 300000,
+  "MAX_PHYSICAL_FD": 5000,
+  "BUFFER_SIZE": 65536,
+  "TOKEN_RATE": 300000,
+  "MAX_QUEUE": 10000,
+  "MAX_READERS": 1000,
+  "MAX_WRITERS": 100,
+  "RAM_CRITICAL": 95.0,
+  "sliding_window": 900,
+  "checkpoints": [
+    1000,
+    5000,
+    10000,
+    25000,
+    50000,
+    100000,
+    150000,
+    200000,
+    250000,
+    300000
+  ],
+  "workload_mix": "90% read 10% write"
+}

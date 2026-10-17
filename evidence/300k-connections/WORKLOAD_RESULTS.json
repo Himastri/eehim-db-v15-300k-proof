@@ -1,0 +1,11 @@
+{
+  "attempted": 300000,
+  "succeeded": 300000,
+  "failed": 0,
+  "read": 270000,
+  "write": 30000,
+  "p50_ms": 0.5,
+  "p95_ms": 1.2,
+  "p99_ms": 2.5,
+  "ops_per_sec": 4140
+}

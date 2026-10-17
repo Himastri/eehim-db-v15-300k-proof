@@ -1,0 +1,2 @@
+ts,cpu,ram%,rss_mb
+# resource timeline captured via psutil — see RUN_300K_PROOF.py — placeholder for POC

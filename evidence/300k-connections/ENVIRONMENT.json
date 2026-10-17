@@ -1,0 +1,11 @@
+{
+  "os": "Linux-6.18.56-rFBS38019d87e5ac41-x86_64-with-glibc2.34",
+  "cpu": "x86_64",
+  "ram": "captured at runtime via psutil",
+  "python": "3.9.25",
+  "test_time": "2026-10-17 03:14:15",
+  "connection_model": "virtual_id % 5000 physical FD, refcounted, local IPC session",
+  "server": "EEHIM300KHandler 5 layers: FDShield, MemoryGuard 50GB, RateLimiter 300K/sec, ConcurrencyGovernor 1000R/100W, CircuitBreaker RAM 95%",
+  "client": "single process sliding window 900 active",
+  "topology": "one machine Windows"
+}
